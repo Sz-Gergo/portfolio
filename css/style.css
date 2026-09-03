@@ -1,0 +1,11 @@
+.colorgradient{
+    background-image: linear-gradient(to bottom, #2F4156, #CBD9E6) ;
+    
+}
+
+.navgomb:hover{
+    background-color: #c5d1db;
+    color: black;
+    border-radius: 15px;
+    
+}
