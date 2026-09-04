@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Rólam</title>
 </head>
-<body>
+<body class="backgroundcolor">
 <header>
     <nav class="navbar navbar-expand-lg colorgradient">
     <div class="container-fluid">
@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item navgomb">
-            <a class="nav-link" href="rolam.html">Rólam</a>
+            <a class="nav-link active" href="rolam.html">Rólam</a>
             </li>
             <li class="nav-item navgomb">
             <a class="nav-link" href="oneletrajz.html">Önéletrajz</a>
@@ -36,15 +36,77 @@
 </header>
 <main>
     <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-7">
             <h2>Üdvözöllek! Szabó Gergő vagyok, szoftverfejlesztő.</h2>
             <p>Több mint 26 év tapasztalattal rendelkezem tiszta, hatékony és skálázható kódok írásában. Szenvedélyem a komplex problémák egyszerű és elegáns digitális megoldásokká formálása.</p>
             <h2>Mivel foglalkozom?</h2>
             <p>Főként Backend fejlesztéssel foglalkozom. Szeretek modern webes és mobilalkalmazásokat építeni, miközben kiemelt figyelmet fordítok a jó felhasználói élményre, a teljesítményre és a biztonságra.</p>
+            <h2>Főbb technológiák és eszközök:</h2>
+            <div class="row">
+                <div class="col-4"><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#nyelvekmodal">Ismert nyelvek</button></div>
+                <div class="col-4"><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#adatbazisokmodal">Ismert Adatbázisok</button></div>
+                <div class="col-4"><button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#eszkozokmodal">Ismert Eszközök</button></div>
+            </div>
         </div>
-        <div></div>
+        <div class="col-lg-5"><img src="img/Gemini_Generated_Image_oqjn35oqjn35oqjn.png" alt="Kép rólam" class="rolamkep img-fluid"></div>
     </div>
 </main>
+<footer>
+
+</footer>
+
+
+<div class="modal fade" id="nyelvekmodal" tabindex="-1" aria-labelledby="nyelvekmodalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Ismert eszközök</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="adatbazisokmodal" tabindex="-1" aria-labelledby="adatbazisokLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Ismert adatbázist programok??</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="eszkozokmodal" tabindex="-1" aria-labelledby="eszkozokmodalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Ismert eszközök</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> 
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
